@@ -1,3 +1,6 @@
+# customSaleor
+Customização do projeto Saleor para testes
+
 ![github_saleor_readmew_header_01](https://user-images.githubusercontent.com/5421321/47800694-19bec680-dd2d-11e8-8625-2ed7c690bc13.jpg)
 
 <div align="center">
@@ -141,3 +144,4 @@ Some situations do call for extra code; we can cover exotic use cases or build y
 
 #### Crafted with ❤️ by [Mirumee Software](http://mirumee.com)
 hello@mirumee.com
+
