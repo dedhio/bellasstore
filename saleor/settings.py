@@ -56,7 +56,7 @@ DATABASES = {
 
 
 TIME_ZONE = "America/Chicago"
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = "pt-br"
 LANGUAGES = [
     ("ar", _("Arabic")),
     ("az", _("Azerbaijani")),
@@ -332,8 +332,8 @@ AUTH_USER_MODEL = "account.User"
 
 LOGIN_URL = "/account/login/"
 
-DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "US")
-DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "USD")
+DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "BR")
+DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "R$")
 DEFAULT_DECIMAL_PLACES = get_currency_fraction(DEFAULT_CURRENCY)
 DEFAULT_MAX_DIGITS = 12
 AVAILABLE_CURRENCIES = [DEFAULT_CURRENCY]
@@ -590,7 +590,8 @@ RAZORPAY = "razorpay"
 STRIPE = "stripe"
 
 CHECKOUT_PAYMENT_GATEWAYS = {
-    DUMMY: pgettext_lazy("Payment method name", "Dummy gateway")
+    DUMMY: pgettext_lazy("Payment method name", "Dummy gateway"),
+    BRAINTREE: pgettext_lazy('Payment method name', 'Brain tree')
 }
 
 PAYMENT_GATEWAYS = {
