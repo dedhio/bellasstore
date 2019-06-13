@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-04 11:45-0500\n"
+"POT-Creation-Date: 2019-06-13 13:51-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -430,36 +430,41 @@ msgctxt "Checkout discount form label for voucher field"
 msgid "Gift card or discount code"
 msgstr ""
 
-#: saleor/checkout/utils.py:139
+#: saleor/checkout/utils.py:148
 msgctxt "Checkout warning message"
 msgid ""
 "Sorry. We don't have that many items in stock. Quantity was set to maximum "
 "available for now."
 msgstr ""
 
-#: saleor/checkout/utils.py:676
+#: saleor/checkout/utils.py:685
 msgctxt "Voucher not applicable"
 msgid "Your order does not require shipping."
 msgstr ""
 
-#: saleor/checkout/utils.py:682
+#: saleor/checkout/utils.py:691
 msgctxt "Voucher not applicable"
 msgid "Please select a shipping method first."
 msgstr ""
 
-#: saleor/checkout/utils.py:690
+#: saleor/checkout/utils.py:699
 msgctxt "Voucher not applicable"
 msgid "This offer is not valid in your country."
 msgstr ""
 
-#: saleor/checkout/utils.py:716
+#: saleor/checkout/utils.py:725
 msgctxt "Voucher not applicable"
 msgid "This offer is only valid for selected items."
 msgstr ""
 
-#: saleor/checkout/utils.py:861
+#: saleor/checkout/utils.py:916
 msgctxt "Voucher not applicable"
 msgid "Voucher expired in meantime. Order placement aborted."
+msgstr ""
+
+#: saleor/checkout/utils.py:978
+msgctxt "Gift card not applicable"
+msgid "Gift card has expired. Order placement cancelled."
 msgstr ""
 
 #: saleor/checkout/views/discount.py:69
@@ -711,9 +716,14 @@ msgctxt "Permission description"
 msgid "Manage sales and vouchers."
 msgstr ""
 
-#: saleor/discount/utils.py:48
+#: saleor/discount/utils.py:46
 msgctxt "Voucher not applicable"
 msgid "Discount not applicable for this product"
+msgstr ""
+
+#: saleor/giftcard/models.py:50
+msgctxt "Permission description"
+msgid "Manage gift cards."
 msgstr ""
 
 #: saleor/graphql/core/filters.py:8
@@ -952,12 +962,12 @@ msgctxt "Payment delete form error"
 msgid "Payment cannot be cancelled."
 msgstr ""
 
-#: saleor/order/models.py:149
+#: saleor/order/models.py:151
 msgctxt "Permission description"
 msgid "Manage orders."
 msgstr ""
 
-#: saleor/order/models.py:397
+#: saleor/order/models.py:399
 #, python-format
 msgctxt "Fulfillment str"
 msgid "Fulfillment #%s"
@@ -1348,14 +1358,19 @@ msgstr ""
 msgid "Traditional Chinese"
 msgstr ""
 
-#: saleor/settings.py:342
+#: saleor/settings.py:343
 msgctxt "Name of political and economical union of european countries"
 msgid "European Union"
 msgstr ""
 
-#: saleor/settings.py:593
+#: saleor/settings.py:595
 msgctxt "Payment method name"
-msgid "Dummy gateway"
+msgid "Braintree"
+msgstr ""
+
+#: saleor/settings.py:596
+msgctxt "Payment method name"
+msgid "Stripe"
 msgstr ""
 
 #: saleor/shipping/__init__.py:9
