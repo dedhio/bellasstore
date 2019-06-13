@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 13:51-0500\n"
+"POT-Creation-Date: 2019-06-13 14:20-0500\n"
 "PO-Revision-Date: 2017-02-08 11:00+0000\n"
 "Last-Translator: Geovani Lopes <dedhio@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mirumee/"
@@ -6436,12 +6436,9 @@ msgid "excluding %(tax_rate)s%% VAT"
 msgstr "Excluindo %(tax_rate)s%% de ICMS"
 
 #: templates/product/details.html:178
-#, fuzzy
-#| msgctxt "Checkout dropdown secondary action"
-#| msgid "Go to cart"
 msgctxt "Product details primary action"
 msgid "Add to cart"
-msgstr "Ir para carrinho"
+msgstr "Adicionar ao carrinho"
 
 #: templates/product/details.html:190
 msgctxt "Product details text"
