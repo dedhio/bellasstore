@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 14:26-0500\n"
+"POT-Creation-Date: 2019-06-13 14:38-0500\n"
 "PO-Revision-Date: 2017-02-08 11:00+0000\n"
 "Last-Translator: Geovani Lopes <dedhio@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mirumee/"
@@ -2075,12 +2075,9 @@ msgid "Checkout"
 msgstr "Pedido"
 
 #: templates/checkout/index.html:84
-#, fuzzy
-#| msgctxt "checkout page: secondary action, empty the checkout"
-#| msgid "Clear checkout"
 msgctxt "checkout page: secondary action, empty the checkout"
 msgid "Clear cart"
-msgstr "Limpar pedido"
+msgstr "Limpar carrinho"
 
 #: templates/checkout/index.html:91 templates/checkout_dropdown.html:62
 msgctxt "Empty checkout message"
