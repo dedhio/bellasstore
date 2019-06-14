@@ -12,14 +12,14 @@
 # Thiago reis <thiagoth.reis@gmail.com>, 2018
 # Danrley Pereira <danrleywillyan@outlook.com>, 2018
 # Andre PS <andreuece@gmail.com>, 2018
-# Roberto Junior <roberto.junior.hbl@gmail.com>, 2018
 # Jean Marcos da Rosa <jeanmarcosdarosa@gmail.com>, 2019
 # Murilo Gonçalves Pereira <murilogp12@gmail.com>, 2019
 # Eduardo Menezes Rocha <eduardomenezesr@gmail.com>, 2019
 # wcreis <wesley.c.reis@gmail.com>, 2019
-# Rafael Lima <rafael.liverpool@gmail.com>, 2019
 # Kaiê Guex <kaie.guex@gmail.com>, 2019
 # Kelvin Prado <kelvinpfw@gmail.com>, 2019
+# Rafael Lima <rafael.liverpool@gmail.com>, 2019
+# Roberto Junior <roberto.junior.hbl@gmail.com>, 2019
 # Geovani Lopes <dedhio@gmail.com>, 2019
 #
 #, fuzzy
@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 14:38-0500\n"
+"POT-Creation-Date: 2019-06-14 11:13-0500\n"
 "PO-Revision-Date: 2017-02-08 11:00+0000\n"
 "Last-Translator: Geovani Lopes <dedhio@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mirumee/"
@@ -39,12 +39,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: saleor/account/__init__.py:28
-#, fuzzy
-#| msgctxt "Event from a staff user that created a draft order"
-#| msgid "The draft order was created"
 msgctxt "Event from a customer that got their account created"
 msgid "The account account was created"
-msgstr "O esboço do pedido foi criado"
+msgstr ""
 
 #: saleor/account/__init__.py:35
 msgctxt "Event from a customer that got the password reset link sent by email"
@@ -52,44 +49,29 @@ msgid "Password reset link was sent to the customer"
 msgstr ""
 
 #: saleor/account/__init__.py:42
-#, fuzzy
-#| msgctxt "Event from a staff user that created a draft order"
-#| msgid "The draft order was created"
 msgctxt "Event from a customer that reset their password"
 msgid "The account password was reset"
-msgstr "O esboço do pedido foi criado"
+msgstr ""
 
 #: saleor/account/__init__.py:48
-#, fuzzy
-#| msgctxt "Event from a user or anonymous user that placed their order"
-#| msgid "The order was placed"
 msgctxt "Event from a customer that placed an order"
 msgid "An order was placed"
-msgstr "O pedido foi feito"
+msgstr ""
 
 #: saleor/account/__init__.py:55
-#, fuzzy
-#| msgctxt "Event from an user that added a note to an order"
-#| msgid "A note was added to the order"
 msgctxt "Event from a customer that added a note to one of their orders"
 msgid "A note was added"
-msgstr "Uma nota foi adicionada ao pedido"
+msgstr ""
 
 #: saleor/account/__init__.py:62
-#, fuzzy
-#| msgctxt "Homepage title"
-#| msgid "Digital Downloads"
 msgctxt "Event from a customer that downloaded an ordered digital good"
 msgid "A digital good was downloaded"
-msgstr "Downloads Digitais"
+msgstr ""
 
 #: saleor/account/__init__.py:69
-#, fuzzy
-#| msgctxt "Order customer details action title"
-#| msgid "Edit customer details"
 msgctxt "Event from a staff user that deleted a customer"
 msgid "A customer was deleted"
-msgstr "Editar detalhes do cliente"
+msgstr ""
 
 #: saleor/account/__init__.py:76
 msgctxt "Event from a staff user assigned a new name to a customer"
@@ -102,12 +84,9 @@ msgid "A customer's email address was edited"
 msgstr ""
 
 #: saleor/account/__init__.py:90
-#, fuzzy
-#| msgctxt "Event from an user that added a note to an order"
-#| msgid "A note was added to the order"
 msgctxt "Event from a staff user assigned a new email address to a customer"
 msgid "A note was added to the customer"
-msgstr "Uma nota foi adicionada ao pedido"
+msgstr ""
 
 #: saleor/account/forms.py:71
 msgctxt "Form field"
@@ -1378,10 +1357,8 @@ msgid "Slovak"
 msgstr "Eslovaco"
 
 #: saleor/settings.py:92
-#, fuzzy
-#| msgid "Romanian"
 msgid "Albanian"
-msgstr "Romena"
+msgstr ""
 
 #: saleor/settings.py:93
 msgid "Serbian"
@@ -1424,14 +1401,14 @@ msgctxt "Name of political and economical union of european countries"
 msgid "European Union"
 msgstr "União Européia"
 
+#: saleor/settings.py:594
+msgctxt "Payment method name"
+msgid "Dummy gateway"
+msgstr "Gateway fictício"
+
 #: saleor/settings.py:595
 msgctxt "Payment method name"
-msgid "Braintree"
-msgstr ""
-
-#: saleor/settings.py:596
-msgctxt "Payment method name"
-msgid "Stripe"
+msgid "Brain tree"
 msgstr ""
 
 #: saleor/shipping/__init__.py:9
@@ -1599,7 +1576,7 @@ msgstr "Seu perfil"
 #: templates/order/payment/details.html:17
 msgctxt "Main navigation item"
 msgid "Your account"
-msgstr "Seu perfil"
+msgstr "Sua conta"
 
 #: templates/account/details.html:26
 msgid "My account"
@@ -1930,7 +1907,7 @@ msgstr "Sair"
 #: templates/base.html:101 templates/base.html:244
 msgctxt "Main navigation item"
 msgid "Register"
-msgstr "Cadastro"
+msgstr "Registro"
 
 #: templates/base.html:105 templates/base.html:249
 msgctxt "Main navigation item"
@@ -2037,9 +2014,6 @@ msgid "Total"
 msgstr "Total"
 
 #: templates/checkout/index.html:7
-#, fuzzy
-#| msgctxt "Main navigation item"
-#| msgid "Your cart"
 msgctxt "Checkout page title"
 msgid "Your cart"
 msgstr "Seu carrinho"
@@ -2047,7 +2021,7 @@ msgstr "Seu carrinho"
 #: templates/checkout/index.html:12
 msgctxt "Checkout breadcrumb"
 msgid "Cart"
-msgstr ""
+msgstr "Carrinho"
 
 #: templates/checkout/index.html:22
 msgctxt "Checkout message"
@@ -2082,7 +2056,7 @@ msgstr "Limpar carrinho"
 #: templates/checkout/index.html:91 templates/checkout_dropdown.html:62
 msgctxt "Empty checkout message"
 msgid "There are no products in your shopping cart."
-msgstr "Não há produtos em seu pedido de compra"
+msgstr "Está vazio!"
 
 #: templates/checkout/index.html:92 templates/checkout_dropdown.html:67
 msgctxt "Empty checkout link"
@@ -2234,7 +2208,7 @@ msgstr "Frete e Impostos calculados no checkout"
 #: templates/checkout_dropdown.html:54
 msgctxt "Checkout dropdown secondary action"
 msgid "Go to cart"
-msgstr "Ir para carrinho"
+msgstr "Ir ao carrinho"
 
 #: templates/checkout_dropdown.html:57
 msgctxt "Checkout dropdown primary action"
@@ -2363,7 +2337,7 @@ msgstr "Liquidações"
 #: templates/dashboard/order/list.html:9 templates/dashboard/order/list.html:29
 msgctxt "Dashboard orders list"
 msgid "Orders"
-msgstr "Encomendas"
+msgstr "Pedidos"
 
 #: templates/dashboard/base.html:158 templates/dashboard/customer/detail.html:9
 #: templates/dashboard/customer/detail.html:25
@@ -6021,7 +5995,7 @@ msgstr "Promoção e Liquidação"
 #: templates/home.html:13
 msgctxt "Homepage title"
 msgid "from the Northpole"
-msgstr "do Northpole"
+msgstr "do Polo Norte"
 
 #: templates/home.html:15 templates/home.html:30 templates/home.html:42
 msgctxt "Homepage action"
@@ -6933,23 +6907,3 @@ msgid "You can track your shipment with %(tracking_number)s code."
 msgstr ""
 "Você pode acompanhar sua remessa com este código de rastreio"
 "%(tracking_number)s."
-
-#~ msgctxt "transaction kind"
-#~ msgid "Charge"
-#~ msgstr "Cobrança"
-
-#~ msgctxt "Payment method name"
-#~ msgid "Dummy gateway"
-#~ msgstr "Gateway fictício"
-
-#~ msgctxt "Checkout page title"
-#~ msgid "Your checkout"
-#~ msgstr "Seu pedido"
-
-#~ msgctxt "Checkout breadcrumb"
-#~ msgid "Checkout"
-#~ msgstr "Pedido"
-
-#~ msgctxt "Product details primary action"
-#~ msgid "Add to checkout"
-#~ msgstr "Adicionar à compra"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 13:51-0500\n"
+"POT-Creation-Date: 2019-06-14 11:13-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1363,14 +1363,14 @@ msgctxt "Name of political and economical union of european countries"
 msgid "European Union"
 msgstr ""
 
-#: saleor/settings.py:595
+#: saleor/settings.py:594
 msgctxt "Payment method name"
-msgid "Braintree"
+msgid "Dummy gateway"
 msgstr ""
 
-#: saleor/settings.py:596
+#: saleor/settings.py:595
 msgctxt "Payment method name"
-msgid "Stripe"
+msgid "Brain tree"
 msgstr ""
 
 #: saleor/shipping/__init__.py:9
