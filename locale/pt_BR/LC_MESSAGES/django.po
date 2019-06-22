@@ -6291,7 +6291,7 @@ msgstr "Atualizar resultados"
 #: templates/product/_items.html:30
 msgctxt "Sale (discount) label for item in product list"
 msgid "Sale"
-msgstr "Liquidação"
+msgstr "Sale"
 
 #: templates/product/_price_range.html:6
 msgctxt "product price range"
